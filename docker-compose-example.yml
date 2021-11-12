@@ -27,7 +27,7 @@ services:
   mariadb:
     image: mariadb:latest
     volumes:
-      - ./mariadb:/var/lib/mysql
+      - ./mysql:/var/lib/mysql
       - ./config/mysql:/etc/mysql/conf.d
     environment:
       - MYSQL_ROOT_PASSWORD=password
