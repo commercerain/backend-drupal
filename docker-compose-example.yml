@@ -1,0 +1,56 @@
+version: '3'
+services:
+
+  ####Drupal ####################################################
+  drupal:
+    image: lawxen/drupal:d9-php80
+    volumes:
+      - ./html:/var/www/html
+    container_name: drupal
+    ports:
+      - 80:80
+    networks:
+      - backend
+
+  ####Drupal dev with xdebug #############################
+  # drupal:
+  #   image: lawxen/drupal:d9-php80-dev
+  #   # volumes:
+  #   #   - ./html:/var/www/html
+  #   container_name: drupal
+  #   ports:
+  #     - 80:80
+  #   networks:
+  #     - backend
+
+  ### Mariadb Container #######################################
+  mariadb:
+    image: mariadb:latest
+    volumes:
+      - ./mariadb:/var/lib/mysql
+      - ./config/mysql:/etc/mysql/conf.d
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+    ports:
+      - "3306"
+    container_name: mariadb
+    restart: always
+    networks:
+      - backend
+
+### Redis Container #########################################
+  # redis:
+  #   image: latest
+  #   container_name: redis
+  #   environment:
+  #     - REDIS_PASSWORD=c4200bc580
+  #     - ALLOW_EMPTY_PASSWORD=no
+  #   ports:
+  #     - "6379"
+  #   networks:
+  #     - backend
+
+### Network ###############################################
+networks:
+  backend:
+    driver: "bridge"
