@@ -1,0 +1,91 @@
+//
+// Overrides
+// ----------------------------
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-container {
+  min-height: 500px;
+}
+
+.btn {
+  text-transform: uppercase;
+}
+
+.button {
+  @extend .btn;
+}
+
+// Color swatch
+.color_field__swatch {
+  @extend .d-block;
+}
+
+// Dropdowns
+.dropdown {
+  // Nested menus
+  .dropdown-menu {
+    .dropdown-toggle:after {
+      transform: rotate(270deg);
+      margin-left: 0.5rem;
+    }
+
+    .dropdown-menu {
+      left: 96%;
+      top: 0;
+    }
+  }
+
+  // Display dropdowns on hover
+  &:hover > .dropdown-toggle + .dropdown-menu {
+    @extend .d-block;
+  }
+}
+
+// Accordions
+$nested-accordion-bg: $light;
+$accordion-button-fs: $font-size-md;
+
+.accordion {
+  .fieldset-legend.accordion-button {
+    font-size: $accordion-button-fs;
+
+    a {
+      font-weight: bold;
+    }
+  }
+
+  .accordion {
+    background-color: $nested-accordion-bg;
+    @extend .mb-4;
+
+    .fieldset-legend.accordion-button {
+      font-size: 1rem;
+    }
+  }
+}
+
+.toast-body a {
+  font-weight: bold;
+}
+
+// Alert links
+.alert a {
+  color: inherit;
+  font-weight: bold;
+}
+
+// Tables
+td > .form-item:only-child {
+  @extend .mb-0;
+}
+
+// Contextual links.
+.contextual-links a {
+  color: initial!important;
+  text-transform: initial!important;
+  font-weight: normal!important;
+}
