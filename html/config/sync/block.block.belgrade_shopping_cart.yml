@@ -1,0 +1,25 @@
+uuid: c9a08208-1324-4999-85ba-0c4baff50745
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart_flyout
+  theme:
+    - belgrade
+_core:
+  default_config_hash: FguXzEJKmcP6auc7cDKXxsrOkaW9X75t4Kbkt1YwBSA
+id: belgrade_shopping_cart
+theme: belgrade
+region: top_bar
+weight: -10
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: 'Shopping Cart'
+  provider: commerce_cart
+  label_display: '0'
+  use_quantity_count: false
+  dropdown: true
+  item_text: items
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: cd214728-d429-403f-b67e-ad0bf3d0b8b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.catalog
+  module:
+    - system
+  theme:
+    - stable
+id: stable_catalog
+theme: stable
+region: footer
+weight: -6
+provider: null
+plugin: 'system_menu_block:catalog'
+settings:
+  id: catalog_footer
+  label: Catalog
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

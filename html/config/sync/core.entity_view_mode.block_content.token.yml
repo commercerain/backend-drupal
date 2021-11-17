@@ -1,0 +1,10 @@
+uuid: dbda2da9-3c6d-4813-9262-348a76ba4557
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.token
+label: Token
+targetEntityType: block_content
+cache: true

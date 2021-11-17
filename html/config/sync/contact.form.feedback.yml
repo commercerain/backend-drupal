@@ -1,0 +1,14 @@
+uuid: 7a1575bf-839f-4b1f-b493-cc477646894f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - demo@commercerain.com
+reply: ''
+weight: 0
+message: null
+redirect: null

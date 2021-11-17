@@ -1,0 +1,25 @@
+uuid: 9853ebe2-c52e-47ae-85da-d733aa6a78a0
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart_flyout
+  theme:
+    - stable
+_core:
+  default_config_hash: FguXzEJKmcP6auc7cDKXxsrOkaW9X75t4Kbkt1YwBSA
+id: stable_shopping_cart
+theme: stable
+region: sidebar_first
+weight: -10
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: 'Shopping Cart'
+  provider: commerce_cart
+  label_display: '0'
+  use_quantity_count: false
+  dropdown: true
+  item_text: items
+visibility: {  }
