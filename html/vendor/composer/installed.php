@@ -728,6 +728,15 @@
                 0 => '9.2.8',
             ),
         ),
+        'drupal/drush_language' => array(
+            'pretty_version' => '1.0.0-rc4',
+            'version' => '1.0.0.0-RC4',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/drush_language',
+            'aliases' => array(),
+            'reference' => '8.x-1.0-rc4',
+            'dev_requirement' => false,
+        ),
         'drupal/dynamic_page_cache' => array(
             'dev_requirement' => false,
             'replaced' => array(

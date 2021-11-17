@@ -20,6 +20,7 @@
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-project-message": "^9.2",
         "drupal/core-recommended": "^9.2",
+        "drupal/drush_language": "^1.0@RC",
         "drush/drush": "^10.6",
         "wikimedia/composer-merge-plugin": "^2.0"
     },

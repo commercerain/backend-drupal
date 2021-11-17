@@ -15,3 +15,14 @@ docker-compose up -d
 ### Notice: 
 Make sure that the permission of ./etc/mysql/my.cnf is 0444
 `chmod 0444 my.cnf`
+
+### Config of settings.php
+```
+$settings['config_sync_directory'] = '../config/sync';
+$settings['custom_translations_directory'] = '../config/translation';
+```
+
+#### Language
+```
+drush langexp --statuses=all
+```
