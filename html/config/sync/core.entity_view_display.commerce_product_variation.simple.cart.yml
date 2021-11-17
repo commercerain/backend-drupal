@@ -47,6 +47,7 @@ content:
       link_to_entity: false
     third_party_settings: {  }
 hidden:
+  langcode: true
   price: true
   product_id: true
   search_api_excerpt: true

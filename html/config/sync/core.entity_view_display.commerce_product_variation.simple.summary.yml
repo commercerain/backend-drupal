@@ -50,6 +50,7 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  langcode: true
   price: true
   product_id: true
   search_api_excerpt: true
