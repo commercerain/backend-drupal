@@ -2186,7 +2186,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/belgrade.git",
-                "reference": "d7d7bf9d1d13fa015de3317a8412f4aa0f14b395"
+                "reference": "97e2388e92db6ccc8ffca6605ad9b61976fa9edd"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -2197,8 +2197,8 @@
                     "dev-2.0.x": "2.0.x-dev"
                 },
                 "drupal": {
-                    "version": "2.0.0-beta1+8-dev",
-                    "datestamp": "1629803947",
+                    "version": "2.0.0-beta1+9-dev",
+                    "datestamp": "1630574921",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -2211,6 +2211,10 @@
                 "GPL-2.0"
             ],
             "authors": [
+                {
+                    "name": "Centarro",
+                    "homepage": "https://www.drupal.org/user/3661446"
+                },
                 {
                     "name": "bojanz",
                     "homepage": "https://www.drupal.org/user/86106"

@@ -306,7 +306,7 @@
             'aliases' => array(
                 0 => '2.0.x-dev',
             ),
-            'reference' => 'd7d7bf9d1d13fa015de3317a8412f4aa0f14b395',
+            'reference' => '97e2388e92db6ccc8ffca6605ad9b61976fa9edd',
             'dev_requirement' => false,
         ),
         'drupal/big_pipe' => array(
