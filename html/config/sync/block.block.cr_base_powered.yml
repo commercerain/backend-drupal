@@ -1,0 +1,22 @@
+uuid: 7c244315-c28e-42ce-ba70-2c5d2afe9c84
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cr_base
+_core:
+  default_config_hash: z0llL779cPFRJ5myqA63dPOl35O7K1lx6wP5omHTi8U
+id: cr_base_powered
+theme: cr_base
+region: footer
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

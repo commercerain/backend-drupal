@@ -1,0 +1,27 @@
+uuid: 23816422-1a4e-41b2-b881-b8d267115060
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.social
+  module:
+    - system
+  theme:
+    - cr_base
+_core:
+  default_config_hash: UReBPHxHy4zKoBBa2ZttpWOjp5Jp9sxNEw23e1muAc8
+id: cr_base_social
+theme: cr_base
+region: footer
+weight: -4
+provider: null
+plugin: 'system_menu_block:social'
+settings:
+  id: 'system_menu_block:social'
+  label: 'Let''s get social'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

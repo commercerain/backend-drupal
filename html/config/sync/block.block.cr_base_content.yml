@@ -1,0 +1,22 @@
+uuid: f57aa699-5d0b-410a-90d9-22f328a6d9e9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cr_base
+_core:
+  default_config_hash: XJkApTCnidVbNIe-SvLIX1pVPIiw5j_m0SWT-eYw39E
+id: cr_base_content
+theme: cr_base
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

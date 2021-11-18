@@ -1,0 +1,22 @@
+uuid: 04b997b8-5fd4-4be5-9fbc-5ea50d8e2d1d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - cr_base
+_core:
+  default_config_hash: ShCI2CrHlOLfouMMyUnPcqHa3_sX443kM-yE9dIm05E
+id: cr_base_local_tasks
+theme: cr_base
+region: content
+weight: -9
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

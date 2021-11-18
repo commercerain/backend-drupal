@@ -1,0 +1,22 @@
+uuid: 6ef341aa-37e1-439c-899d-7d9fdc4c74a9
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - cr_base
+_core:
+  default_config_hash: gKtOcSQTQki2pujw1HB5crJu7WlQmuPbl9cMqPDeWtA
+id: cr_base_help
+theme: cr_base
+region: content
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 6144609c-6bae-4eb6-88f4-8959476e6be4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cr_base
+_core:
+  default_config_hash: z46aFj7i7rALpdO3PRsi7pJCmgKxL0CUpq53JzXj9qs
+id: cr_base_branding
+theme: cr_base
+region: header
+weight: -9
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

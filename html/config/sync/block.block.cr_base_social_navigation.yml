@@ -1,0 +1,27 @@
+uuid: 166bd479-332a-4f27-a768-2be816f3c83e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.social
+  module:
+    - system
+  theme:
+    - cr_base
+_core:
+  default_config_hash: Dr78JU06qEPwMRS9CDsTk011MO9E7Dv6zPVNyM1rDNM
+id: cr_base_social_navigation
+theme: cr_base
+region: navigation
+weight: 0
+provider: null
+plugin: 'system_menu_block:social'
+settings:
+  id: 'system_menu_block:social'
+  label: Social
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

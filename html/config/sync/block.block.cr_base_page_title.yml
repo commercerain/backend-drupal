@@ -1,0 +1,27 @@
+uuid: 8da896bb-3391-4537-9ca3-fd8bac3e1b4b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cr_base
+_core:
+  default_config_hash: 4sQo3UuHbrbLZzZUf13YP_N6Fij0jcdoy89cFXkpJCU
+id: cr_base_page_title
+theme: cr_base
+region: content
+weight: -10
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/product/*\r\n/products*\r\n"
+    negate: true
+    context_mapping: {  }

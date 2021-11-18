@@ -1,0 +1,22 @@
+uuid: 81fadab5-6af8-4439-8431-7b3adf81369e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cr_base
+_core:
+  default_config_hash: uxiZlSldLtoOp05pfXeKJxxtvB0ckxx3mAAabJdAJnU
+id: cr_base_messages
+theme: cr_base
+region: highlighted
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

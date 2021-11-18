@@ -1,0 +1,20 @@
+uuid: 877c1c8b-79a4-4544-89fc-2c40afa12d2b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - cr_base
+_core:
+  default_config_hash: EAlCAHiVy5x3aTOW2K9XaWE4kelyfSSSKv8_uiomGJM
+id: cr_base_local_actions
+theme: cr_base
+region: content
+weight: -8
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

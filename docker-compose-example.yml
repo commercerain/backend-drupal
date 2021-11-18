@@ -3,6 +3,7 @@ services:
 
   ####Drupal ####################################################
   drupal:
+    # image: lawxen/drupal:d9-php80-dev
     image: lawxen/drupal:d9-php80
     volumes:
       - ./html:/var/www/html
@@ -11,17 +12,6 @@ services:
       - 8087:80
     networks:
       - backend
-
-  ####Drupal dev with xdebug #############################
-  # drupal:
-  #   image: lawxen/drupal:d9-php80-dev
-  #   # volumes:
-  #   #   - ./html:/var/www/html
-  #   container_name: drupal
-  #   ports:
-  #     - 8087:80
-  #   networks:
-  #     - backend
 
   ### Mariadb Container #######################################
   mariadb:
