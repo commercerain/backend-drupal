@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2021-11-17 07:58+0000\n"
-"PO-Revision-Date: 2021-11-17 07:58+0000\n"
+"POT-Creation-Date: 2021-11-18 06:26+0000\n"
+"PO-Revision-Date: 2021-11-18 06:26+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -37360,3 +37360,258 @@ msgstr "浏览可用的token(令牌)"
 msgid "Token or token types are defined by multiple modules"
 msgstr "令牌或令牌类型是由多个模块定义的"
 
+msgid "title"
+msgstr "标题"
+
+msgid "value"
+msgstr "值"
+
+msgid "content"
+msgstr "内容"
+
+msgid "Priority"
+msgstr "优先"
+
+msgid "name"
+msgstr "名称"
+
+msgid "path"
+msgstr "路径"
+
+msgid "type"
+msgstr "类型"
+
+msgid "Not found"
+msgstr "未找到"
+
+msgid "Url"
+msgstr "网址"
+
+msgid "Extensions"
+msgstr "扩展名"
+
+msgid "Session ID"
+msgstr "会话ID"
+
+msgid "Variable name"
+msgstr "变量名"
+
+msgid "Load"
+msgstr "载入"
+
+msgid "Method"
+msgstr "方式"
+
+msgid "Now"
+msgstr "现在"
+
+msgid "Class"
+msgstr "类别"
+
+msgid "template"
+msgstr "模板"
+
+msgid "IP"
+msgstr "IP地址"
+
+msgid "Original"
+msgstr "原始"
+
+msgid "ago"
+msgstr "前"
+
+msgid "Parameters"
+msgstr "参数"
+
+msgid "id"
+msgstr "id"
+
+msgid "terms"
+msgstr "术语"
+
+msgid "Failed"
+msgstr "失败"
+
+msgid "Enter username"
+msgstr "输入用户名"
+
+msgid "Username not found"
+msgstr "未找到用户名"
+
+msgid "Translations"
+msgstr "翻译"
+
+msgid "Translated"
+msgstr "已翻译"
+
+msgid "Request"
+msgstr "请求"
+
+msgid "Event Name"
+msgstr "事件名称"
+
+msgid "Layouts"
+msgstr "布局"
+
+msgid "Service"
+msgstr "服务"
+
+msgid "Available"
+msgstr "可用"
+
+msgid "1 user"
+msgid_plural "@count users"
+msgstr[0] "1 个用户"
+msgstr[1] "@count 个用户"
+
+msgid "Reinstall modules"
+msgstr "重新安装模块"
+
+msgid "Switch user"
+msgstr "切换用户"
+
+msgid "Devel"
+msgstr "开发"
+
+msgid "Sort query log"
+msgstr "问题日志分类"
+
+msgid ""
+"The query table can be sorted in the order that the queries were "
+"executed or by descending duration."
+msgstr "查询表可以根据查询执行时间或持续时间降序排序。"
+
+msgid "Slow query highlighting"
+msgstr "慢速查询高亮"
+
+msgid ""
+"Enter an integer in milliseconds. Any query which takes longer than "
+"this many milliseconds will be highlighted in the query log. This "
+"indicates a possibly inefficient query, or a candidate for caching."
+msgstr "以毫秒为单位输入一个整数。任何在查询日志中大于该时间的查询将被高亮显示。表明这可能是个低效查询或成为缓存候选。"
+
+msgid "New value"
+msgstr "新值"
+
+msgid "Session name"
+msgstr "会话名称"
+
+msgid "How many users would you like to generate?"
+msgstr "你想创建多少名用户？"
+
+msgid "How many nodes would you like to generate?"
+msgstr "你想创建多少节点？"
+
+msgid "Rebuild"
+msgstr "重建"
+
+msgid "Any"
+msgstr "任意"
+
+msgid "Untranslated"
+msgstr "未翻译的"
+
+msgid "Instances"
+msgstr "实例"
+
+msgid "Drupal version"
+msgstr "Drupal 版本"
+
+msgid "Config"
+msgstr "配置"
+
+msgid "priority"
+msgstr "优先权"
+
+msgid "Rebuild the theme registry on every page load"
+msgstr "在每个页面加载时重建主题注册信息"
+
+msgid "Reinstall"
+msgstr "重新安装"
+
+msgid "Theme registry"
+msgstr "主题注册表"
+
+msgid "Devel settings"
+msgstr "开发设置"
+
+msgid "Rebuild Menu"
+msgstr "重建菜单"
+
+msgid "form"
+msgstr "表单"
+
+msgid "Total time"
+msgstr "总时间"
+
+msgid "Libraries"
+msgstr "库"
+
+msgid "Display $page array"
+msgstr "显示$page数组"
+
+msgid "Field info"
+msgstr "字段信息"
+
+msgid "Deleted %count nodes."
+msgstr "已删除 %count 个节点。"
+
+msgid "media"
+msgstr "媒体"
+
+msgid "1 user deleted"
+msgid_plural "@count users deleted."
+msgstr[0] "1个用户已删除"
+msgstr[1] "@count个用户已删除。"
+
+msgid "Requires locale.module"
+msgstr "需要locale.module"
+
+msgid "dashboard"
+msgstr "面板"
+
+msgid "Entity info"
+msgstr "实体信息"
+
+msgid "Deleted existing vocabularies."
+msgstr "删除存在的词汇表。"
+
+msgid "Description of @name"
+msgstr "@name 的描述"
+
+msgid "Description of @title."
+msgstr "@title 的描述。"
+
+msgid "Number of vocabularies?"
+msgstr "词汇表的数量？"
+
+msgid "Create new menu(s)"
+msgstr "创建新菜单"
+
+msgid "Instance"
+msgstr "实例"
+
+msgid "Maximum number of characters in term names"
+msgstr "术语名称的最大字符个数"
+
+msgid "Execute PHP"
+msgstr "执行PHP"
+
+msgid "PHP code to execute"
+msgstr "执行php代码"
+
+msgid "Enter some code. Do not use <code>&lt;?php ?&gt;</code> tags."
+msgstr "输入代码。不要使用 <code>&lt;?php ?&gt;</code> 标记。"
+
+msgid "Execute"
+msgstr "执行"
+
+msgid "Execute PHP Code"
+msgstr "执行PHP代码"
+
+msgid "Links related to Devel module."
+msgstr ""
+msgid "Tray @action."
+msgstr ""
+msgid "!tour_item of !total"
+msgstr ""
