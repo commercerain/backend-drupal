@@ -1,4 +1,4 @@
 .vscode
 .idea
-docker-compose.yml
-mysql
+/docker-compose.yml
+/mysql
